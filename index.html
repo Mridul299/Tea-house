@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-house</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -16,8 +19,14 @@
           }
         }
       </script>
+      <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+
+      </style>
 </head>
-<body class="max-w-screen-xl mx-auto px-16 pt-16 lg:px-28">
+<body class="max-w-screen-xl mx-auto px-16 pt-16 lg:px-28 font-manrope">
     <header class="md:flex items-center">
         <!-- text -->
          <div class="max-w-xl mb-7 ">
@@ -37,7 +46,8 @@
          <!-- img -->
           <div class="relative">
             <img src="images/banner.png" alt="">
-            <div class="flex items-center gap-x-3 rounded-xl px-7 py-4 drop-shadow-2xl bg-[#FFFFFF] w-64 absolute bottom-0">
+            <!-- card -->
+            <div class="flex items-center gap-x-3 rounded-xl px-7 py-4 drop-shadow-2xl bg-[#FFFFFF] max-w-64 absolute  top-48">
                 <!-- icon -->
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-9 text-orange-400">
